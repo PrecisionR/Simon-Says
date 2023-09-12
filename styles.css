@@ -55,4 +55,11 @@ body {
 .refresh{
   height: 5rem;
   width: 5rem;
+  background-color: aqua;
+  border-radius: 50%;
+}
+.refresh p{
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: cornsilk;
 }
