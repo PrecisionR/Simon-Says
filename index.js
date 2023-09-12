@@ -14,7 +14,7 @@ function nextSequence(){
     gamePattern.push(randomColor);
    
 }
-$("h1").one("click",function(){
+$("h1").on("tap",function(){
             $("h1").text("Level "+level);
             nextSequence(); 
         
@@ -58,7 +58,7 @@ function checkAnswer(currentLevel){
         playSound("wrong");
         level=0;
         $("h1").text("Game Over! press any key to restart");
-          $("h1").one("click",function(){
+          $("h1").on("tap",function(){
             $("h1").text("Level "+level);
             nextSequence(); 
         
